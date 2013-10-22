@@ -1,6 +1,7 @@
 <html>
 <head><title>PHP login lage</title>
 <style type="text/css">
+
 <!--
 .style1 {font-weight: bold}
 .style2 {
@@ -12,7 +13,7 @@
 </head>
 
 <body bgcolor="#FFFF99"><center>
-  
+
   <form name="form1" method="post" action="">
     <table width="100%" height="136" border="3" cellspacing="10" bgcolor="red">
       <tr colspan="5">
@@ -22,9 +23,9 @@
     </table>
   </form>
   <p>&nbsp;</p>
-  <table width="1350" height="280" border="1">
+  <table width="1300" height="280" border="1">
     <tr>
-      <td width="1226" height="275" background="bb.png">&nbsp;</td>
+      <td width="1220" height="275" background="bb.png">&nbsp;</td>
     </tr>
   </table>
   <p><strong>LOGIN HERE FOR REGISTRATION OF A TEAM </strong></p>
@@ -74,11 +75,13 @@ if($pass=='')
 echo "<script>window.open<'login.php?pass=Please enter password','_self)</script>";
 }
 else{
+	
 $que="select * from signup where username='$uname' AND password='$pass'";
 $run=mysql_query($que) or die (mysql_error());
 if(mysql_num_rows($run)>0){
    echo "<script> alert('You successfully login.....')</script>";
 echo "<script>window.open('teamregist.php','_self')</script>";
+
     }
 	else
 	{
