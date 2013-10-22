@@ -15,7 +15,7 @@
 <body>
 <form action="login.php" method="post" name="form1" target="_self" id="form1">
   <div align="right">
-    If you have an account then click  this buttton for Sign in
+      If you have an account then click  this buttton for Sign in
     <input type="submit" name="Submit2" value="Login" />
   </div>
 </form>
@@ -34,7 +34,7 @@
       <tr>
         <td width="94"><span class="style1">User Name: </span></td>
         <td width="157"><input name="username" type="text" id="username" /></td>
-      </tr>
+              </tr>
       <tr>
         <td><span class="style1">Password:</span></td>
         <td><input name="u_pass" type="password" id="u_pass" /></td>
@@ -84,7 +84,7 @@ else {
  {
  echo "<script>window.open('login.php','_self')</script>";
  echo " <script>alert('Registration Successfully..')</script>";
- }
+  }
 }
 }
 ?>
