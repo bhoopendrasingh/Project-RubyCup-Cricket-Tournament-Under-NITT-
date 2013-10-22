@@ -4,12 +4,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>Untitled Document</title>
 <style type="text/css">
+//using style for drawing table ...
 <!--
 .style1 {
 	color: #000079;
 	font-weight: bold;
 }
 -->
+
 </style>
 </head>
 <body>
@@ -31,7 +33,7 @@
 <form action="signup.php" method="post">
   <div align="center"> 
     <table width="269" border="2" bordercolor="#000000" bgcolor="#99FFFF">
-      <tr>
+          <tr>
         <td width="94"><span class="style1">User Name: </span></td>
         <td width="157"><input name="username" type="text" id="username" /></td>
               </tr>
