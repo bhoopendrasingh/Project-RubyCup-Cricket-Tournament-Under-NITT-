@@ -12,7 +12,7 @@
 .style2 {
 	color: #FF0000;
 	font-weight: bold;
-}
+	}
 -->
 </style>
 </head>
@@ -27,7 +27,7 @@
     <div align="right"> Click here for match
       <input type="submit" name="Submit3" value="MATCH" />
     </div>
-  </form>
+      </form>
   <p>&nbsp;</p>
   <table width="1127" height="219" border="1">
     <tr>
@@ -92,13 +92,14 @@ if (isset($_POST['Submit']))
  $spcz=$_POST['specialization'];
  $tid=$_POST['Team_id'];
  
+ 
  if ($pnm==''){
  echo "<script>alert('Please Enter player name')</script>";
  exit();
  }if ($prno==''){
- echo "<script>alert('Please enter the palyerr roll number...')</script>";
+ 	 echo "<script>alert('Please enter the palyerr roll number...')</script>";
  exit();
- }
+  }
  if ($spcz==''){
  echo "<script>alert('Please enter the palyer's specialization...')</script>";
  exit();
@@ -116,7 +117,7 @@ else {
  //echo " <script>alert('Registration Successfully...!!!')</script>";
 
  echo "<script>window.open('player_reg.php','_self') </script>";
- echo " <script>alert('Registration Successfully...!!!')</script>";
+  echo " <script>alert('Registration Successfully...!!!')</script>";
  }
 // echo "<script>window.open('player_reg.php','_self') </script>";
  }
