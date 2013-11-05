@@ -26,18 +26,10 @@
 			insert into 
 			}
                 
-         }		  
-
-    
-
-
-
+         } 
 
 ?>
-   
-   
-   
-   
+
    echo "<br><br><center><h1><b><u>List of Registered Students</u></b></h1><br><br></center>";
    echo "<center><table class='gridtable'>
        <tr>
