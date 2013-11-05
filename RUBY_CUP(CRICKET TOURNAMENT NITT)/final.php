@@ -39,19 +39,19 @@ body {
     </div>
   </form>
   <p>&nbsp;</p>
-  <p><img src="f3.jpg" width="617" height="324" /></p>
+  <p><img src="f3.jpg" width="620" height="320" /></p>
   <p>&nbsp;</p>
   <p class="style9">FINAL MATCH </p>
 </div>
 <div align="center">
-  <table width="795" height="110" border="2">
+  <table width="795" height="120" border="2">
     <tr>
       <td width="202" height="50"><div align="center"><span class="style8">TEAM 1 </span></div></td>
       <td width="103" rowspan="2"><fieldset>
         <div align="center">
           <legend class="style6">V/S</legend>
         </div>
-      </fieldset>     </td>
+      </fieldset>    ï¿½</td>
       <td width="241"><div align="center"><span class="style8">TEAM2</span></div></td>
       <td width="219"><span class="style12">RESULENT TEAM ID </span></td>
     </tr>
