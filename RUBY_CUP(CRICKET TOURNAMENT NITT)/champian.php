@@ -26,17 +26,21 @@ body {
   <p><img src="nitt_logo.jpg" width="173" height="112" /></p>
   <p class="style17">CHAMPIAN TEAM :-(Compuetr Applications) </p>
   <table width="879" height="370" border="2">
+  
     <tr>
       <td width="426" height="362"><table width="425" height="304" border="1">
-        <tr>
+              <tr>
           <td height="201"><img src="f2.jpg" width="504" height="343" /></td>
         </tr>
+        
       </table></td>
       <td width="435"><table width="424" height="355" border="1">
+      
         <tr>
           <td height="349"><img src="cadept.jpg" width="425" height="327" /></td>
         </tr>
       </table></td>
+      
     </tr>
   </table>
 </div>
