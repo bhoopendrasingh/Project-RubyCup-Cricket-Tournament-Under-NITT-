@@ -33,7 +33,8 @@
       </tr>
       <tr>
         <td><span class="style1">DepartmentName:</span></td>
-        <td><select name="departmentname">
+        
+                <td><select name="departmentname">
             <option value="none">none</option>
             <option value="Architecture">Architecture</option>
             <option value="Chemistry">Chemistry</option>
@@ -43,6 +44,7 @@
             <option value="EEE">EEE</option>
             <option value="CSE">CSE</option>
             <option value="ECE">ECE</option>
+            
             <option value="Humanities">Humanities</option>
             <option value="ICE">ICE</option>
             <option value="Management Studies">Management Studies</option>
@@ -51,14 +53,18 @@
             <option value="MME">MME</option>
             <option value="Production Engg">Production Engg</option>
             <option value="Physics">Physics</option>
+            
         </select></td>
       </tr>
+      
       <tr>
         <td height="28" colspan="2"><div align="center">
             <input name="Submit" type="submit" class="style1" value="submit" />
         </div></td>
       </tr>
+      
     </table>
+    
   </div>
 </form>
 </body>
